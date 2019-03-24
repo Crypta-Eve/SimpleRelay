@@ -1,0 +1,8 @@
+bot_token = 'insert_token.here'
+
+# This is a dict, the key is source channel id. The value is the destination
+channel_relay = {
+    111111111111111330:11111111084036107,
+    444411111111111330:11111111084036107,
+    432432111111111330:11432111084036107,
+}
