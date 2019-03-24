@@ -17,7 +17,7 @@ async def on_message(message):
 
     if message.channel.id in config.channel_relay:
         channel = client.get_channel(config.channel_relay[message.channel.id])
-        msg = message.author.nick + '\n' + message.content
+        msg = message.author.nick + " from " +  message.channel.name + " in " + message.guild.name + '\n' + message.content
         await channel.send(msg)
 
 
